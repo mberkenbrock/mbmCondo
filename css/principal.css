@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:    #7fa8c1;
+    width: 100px;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+
+
+}
+
+input[type="checkbox"]
+{
+    display: none;
+
+}
+nav{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin
+    padding: 0px;
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    width: 300px;
+    max-width: 300px;
+    max-height: 100vh;
+    overflow-y: auto;
+    z-index: 10;
+
+} 
+a{
+    display: block;
+    font-size: 1rem;
+    padding: 10px 3px;
+    letter-spacing: .010em;
+    line-height: 2rem;
+    width: 300px;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+a:hover{
+    background-color: rgb(176, 224, 230);
+    color:black;
+}
+
+.imgmenu{
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding: 10px;
+}
+.logopage{
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+
+}
